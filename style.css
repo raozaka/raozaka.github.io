@@ -128,4 +128,62 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+/* Adjust form section layout */
+section h2 {
+    text-align: left; /* Align Contact title to the left */
+    margin-left: 10%; /* Move it a bit to the right */
+    font-size: 1.8em;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Style LinkedIn link */
+p a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-left: 10%; /* Move LinkedIn link to align under the title */
+    font-size: 1em;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Form inputs and labels */
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
 /*===================================*/

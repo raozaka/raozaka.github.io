@@ -1,4 +1,4 @@
-/* General Styling */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,46 +8,45 @@ body {
     color: #333;
 }
 
-/* Header and Navigation */
+/* Header Styles */
 header {
-    background-color: #fff;
+    background-color: #333;
     padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    display: inline-block;
     margin: 0;
     font-size: 1.8em;
-    color: #333;
 }
 
+/* Navigation Bar Styles */
 nav ul {
-    display: inline-block;
     list-style: none;
     margin: 0;
     padding: 0;
-    float: right;
+    display: flex; /* Ensures the nav items are in one line */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 15px; /* Adds spacing between the items */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
+nav ul li a:hover, nav ul li a.active {
     color: #007BFF;
 }
 
-/* Main Content Styling */
+/* Main Content Styles */
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -57,10 +56,27 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid #333;
+}
+
 footer {
     text-align: center;
-    padding: 10px 0;
     background-color: #333;
     color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     font-size: 0.9em;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
 }

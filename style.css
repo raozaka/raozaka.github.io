@@ -80,8 +80,8 @@ a {
     color: #007BFF;
     text-decoration: none;
 }
-#========================================
-#Contact page
+/*========================================*/
+/*Contact page*/
 form {
     max-width: 600px;
     margin: 20px auto;
@@ -128,4 +128,4 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
-#===================================
+/*===================================*/

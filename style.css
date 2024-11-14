@@ -8,72 +8,70 @@ body {
     color: #333;
 }
 
-/* Header Styles */
 header {
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 1.8em;
-}
-
-/* Navigation Bar Styles */
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
-    display: flex; /* Ensures the nav items are in one line */
 }
 
 nav ul li {
-    margin: 0 15px; /* Adds spacing between the items */
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s ease;
 }
 
-nav ul li a:hover, nav ul li a.active {
-    color: #007BFF;
-}
-
-/* Main Content Styles */
 main {
-    max-width: 800px;
+    display: flex;
+    justify-content: center;
     margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
 }
 
-.profile-pic img {
-    width: 150px;
-    height: 150px;
+.content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left-content {
+    flex: 2;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px;
-    border: 3px solid #333;
+}
+
+.right-content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
-    background-color: #333;
-    color: white;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.9em;
+    background: #333;
+    color: #fff;
 }
 
 a {

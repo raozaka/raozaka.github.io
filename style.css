@@ -69,14 +69,21 @@ main {
 }
 
 .right-content {
-    flex: 1;
-    display: grid;
-    gap: 10px;
+    display: flex;
+    flex-direction: column; /* Align boxes vertically */
+    gap: 20px; /* Add space between boxes */
+    align-items: center; /* Center boxes horizontally */
+    padding-top: 20px;
 }
 
-.image-box img {
-    width: 100%;
-    border-radius: 10px;
+.image-box {
+    width: 100%; /* Adjust width as needed */
+    max-width: 250px; /* Set maximum width for better alignment */
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {

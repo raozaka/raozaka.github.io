@@ -5,7 +5,13 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-
+header img {
+    height: 60px; /* Adjust height to make the logo larger */
+    width: auto;  /* Maintain aspect ratio */
+    margin: 0 15px; /* Add some spacing around the logos */
+    display: inline-block;
+    vertical-align: middle;
+}
 header {
     background: #333;
     color: #fff;

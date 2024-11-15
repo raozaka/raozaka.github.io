@@ -200,3 +200,17 @@ button:hover {
     background-color: #0056b3;
 }
 /*===================================*/
+.publication-content {
+    display: flex;
+    gap: 20px;
+}
+
+.publication-image img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.publication-description {
+    flex-grow: 1;
+}
+/*========================================*/
